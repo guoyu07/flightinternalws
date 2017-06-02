@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibu.flight</groupId>
+  <artifactId>internalws</artifactId>
+  <packaging>war</packaging>
+  <version>1.0-SNAPSHOT</version>
+  <name>internalws Maven Webapp</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <framework-bom.version>0.8.12</framework-bom.version>
+    <!-- Maven Release Repository URL -->
+    <releases.repo>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/repositories/iburelease/</releases.repo>
+    <!-- Maven Snapshot Repository URL -->
+    <snapshots.repo>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/repositories/ibusnapshot/</snapshots.repo>
+    <jacksonannotations.version>2.8.8</jacksonannotations.version>
+    <ctriposs.version>1.0.3</ctriposs.version>
+    <ctripossbaiji.version>2.5.3</ctripossbaiji.version>
+    <ctripossbaijirpc.version>1.6.10</ctripossbaijirpc.version>
+  </properties>
+
+  <!--Maven BOM-->
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>com.ctrip.framework</groupId>
+        <artifactId>framework-bom</artifactId>
+        <version>${framework-bom.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <!--Maven私服-->
+  <repositories>
+    <repository>
+      <id>nexus</id>
+      <name>Ctrip Nexus Mirror</name>
+      <url>http://maven.dev.sh.ctripcorp.com:8081/nexus/content/repositories/public</url>
+    </repository>
+  </repositories>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.dianping.cat</groupId>
+      <artifactId>cat-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>${jacksonannotations.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ctriposs</groupId>
+      <artifactId>etcd4j</artifactId>
+      <version>${ctriposs.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ctriposs.baiji</groupId>
+      <artifactId>baiji-core</artifactId>
+      <version>${ctripossbaiji.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>com.ctriposs.baiji</groupId>
+      <artifactId>registry-client</artifactId>
+      <version>${ctripossbaijirpc.version}</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <finalName>internalws</finalName>
+    <plugins>
+
+    </plugins>
+  </build>
+</project>
