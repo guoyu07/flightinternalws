@@ -42,7 +42,7 @@ public class PriceUnitType  {
         List<FareInfoType> fareInfoList, 
         List<PriceInfoType> priceInfoList, 
         List<RemarkGroupType> remarkGroupList, 
-        List<BookingClassInfoListType> bookingClassInfoListList, 
+        List<BookingClassInfoType> bookingClassInfoListList, 
         List<String> majorCabinClassList, 
         String engineType, 
         PriceUnitMiscType priceUnitMisc) {
@@ -88,7 +88,7 @@ public class PriceUnitType  {
     @JsonProperty("BookingClassInfoListList")
     @XmlElement(name = "BookingClassInfoList")
     @XmlElementWrapper(name = "BookingClassInfoListList")
-    private List<BookingClassInfoListType> bookingClassInfoListList;
+    private List<BookingClassInfoType> bookingClassInfoListList;
 
     @JsonProperty("MajorCabinClassList")
     @XmlElement(name = "CabinClass")
@@ -147,11 +147,11 @@ public class PriceUnitType  {
         this.remarkGroupList = remarkGroupList;
     }
 
-    public List<BookingClassInfoListType> getBookingClassInfoListList() {
+    public List<BookingClassInfoType> getBookingClassInfoListList() {
         return this.bookingClassInfoListList;
     }
 
-    public void setBookingClassInfoListList(List<BookingClassInfoListType> bookingClassInfoListList) {
+    public void setBookingClassInfoListList(List<BookingClassInfoType> bookingClassInfoListList) {
         this.bookingClassInfoListList = bookingClassInfoListList;
     }
 

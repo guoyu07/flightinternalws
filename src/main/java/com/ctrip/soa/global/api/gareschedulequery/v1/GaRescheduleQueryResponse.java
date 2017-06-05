@@ -7,7 +7,7 @@ package com.ctrip.soa.global.api.gareschedulequery.v1;
 
 import com.ctrip.soa.global.api.comm.responsehead.v1.ResponseHead;
 import com.ctrip.soa.global.api.searhflightporduct.v1.FltProductInfo;
-import com.ctrip.soa.global.api.searhflightporduct.v1.SelectedFltProductInfoList;
+import com.ctrip.soa.global.api.searhflightporduct.v1.SelectedFlightInfo;
 import com.ctriposs.baiji.rpc.common.HasResponseStatus;
 import com.ctriposs.baiji.rpc.common.apidoc.DtoDoc;
 import com.ctriposs.baiji.rpc.common.apidoc.FieldDoc;
@@ -21,6 +21,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -52,7 +53,7 @@ public class GaRescheduleQueryResponse implements HasResponseStatus {
         String searchCriteriaToken, 
         String flightOrderClass, 
         List<FltProductInfo> fltProductInfoList, 
-        List<SelectedFltProductInfoList> selectedFltProductInfoList) {
+        List<SelectedFlightInfo> selectedFltProductInfoList) {
         this.responseHead = responseHead;
         this.responseStatus = responseStatus;
         this.no = no;
@@ -96,8 +97,9 @@ public class GaRescheduleQueryResponse implements HasResponseStatus {
 
     @FieldDoc("已选航班信息列表，去程时为空")
     @JsonProperty("SelectedFltProductInfoList")
-    @XmlElement(name = "SelectedFltProductInfoList")
-    private List<SelectedFltProductInfoList> selectedFltProductInfoList;
+    @XmlElement(name = "SelectedFltProductInfo")
+    @XmlElementWrapper(name = "SelectedFltProductInfoList")
+    private List<SelectedFlightInfo> selectedFltProductInfoList;
 
     public ResponseHead getResponseHead() {
         return this.responseHead;
@@ -165,11 +167,11 @@ public class GaRescheduleQueryResponse implements HasResponseStatus {
     /**
      * 已选航班信息列表，去程时为空
      */
-    public List<SelectedFltProductInfoList> getSelectedFltProductInfoList() {
+    public List<SelectedFlightInfo> getSelectedFltProductInfoList() {
         return this.selectedFltProductInfoList;
     }
 
-    public void setSelectedFltProductInfoList(List<SelectedFltProductInfoList> selectedFltProductInfoList) {
+    public void setSelectedFltProductInfoList(List<SelectedFlightInfo> selectedFltProductInfoList) {
         this.selectedFltProductInfoList = selectedFltProductInfoList;
     }
 

@@ -52,7 +52,6 @@ public class GaDeductionStrategyItem  {
     private BigDecimal startAmount;
 
     @FieldDoc("优惠扣减类型(由业务来划分类型，人为操作不能作为最终参考值)" +
-" +
  "0-金额 2-按条件(金额) 满xx元优惠xx元" +
 "1-百分比 3-按条件(百分比) 满xx元优惠百分之xx")
     @JsonProperty("DeductionType")
@@ -77,7 +76,6 @@ public class GaDeductionStrategyItem  {
 
     /**
      * 优惠扣减类型(由业务来划分类型，人为操作不能作为最终参考值)
-     * 
      *  0-金额 2-按条件(金额) 满xx元优惠xx元
      * 1-百分比 3-按条件(百分比) 满xx元优惠百分之xx
      */

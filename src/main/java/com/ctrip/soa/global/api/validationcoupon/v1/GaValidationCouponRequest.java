@@ -111,7 +111,6 @@ public class GaValidationCouponRequest extends RequestHead  {
     private Integer couponID;
 
     @FieldDoc("产品线ID 默认2" +
-" +
 "机票	1" +
 "酒店	2" +
 "旅游	3" +
@@ -236,7 +235,6 @@ public class GaValidationCouponRequest extends RequestHead  {
 
     /**
      * 产品线ID 默认2
-     * 
      * 机票1
      * 酒店2
      * 旅游3

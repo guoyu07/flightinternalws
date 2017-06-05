@@ -100,9 +100,7 @@ public class FlightBasicInfoType  {
     @XmlElement(name = "StatusID")
     private int statusID;
 
-    @FieldDoc("航班状态名" +
-" +
-"与StatusID的值对应")
+    @FieldDoc("航班状态名(与StatusID的值对应)")
     @JsonProperty("StatusName")
     @XmlElement(name = "StatusName")
     private String statusName;
@@ -118,9 +116,7 @@ public class FlightBasicInfoType  {
     @XmlElement(name = "CheckInStatusID")
     private int checkInStatusID;
 
-    @FieldDoc("登机状态名" +
-" +
-"与CheckInStatusID的值对应")
+    @FieldDoc("登机状态名(与CheckInStatusID的值对应)")
     @JsonProperty("CheckInStatusName")
     @XmlElement(name = "CheckInStatusName")
     private String checkInStatusName;
@@ -196,9 +192,7 @@ public class FlightBasicInfoType  {
     }
 
     /**
-     * 航班状态名
-     * 
-     * 与StatusID的值对应
+     * 航班状态名(与StatusID的值对应)
      */
     public String getStatusName() {
         return this.statusName;
@@ -226,9 +220,7 @@ public class FlightBasicInfoType  {
     }
 
     /**
-     * 登机状态名
-     * 
-     * 与CheckInStatusID的值对应
+     * 登机状态名(与CheckInStatusID的值对应)
      */
     public String getCheckInStatusName() {
         return this.checkInStatusName;

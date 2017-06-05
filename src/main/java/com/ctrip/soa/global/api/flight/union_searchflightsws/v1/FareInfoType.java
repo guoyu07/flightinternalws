@@ -58,7 +58,7 @@ public class FareInfoType  {
     @XmlElement(name = "Schedule")
     private String schedule;
 
-    @FieldDoc("Fare\passenger ticket")
+    @FieldDoc("Fare passenger ticket")
     @JsonProperty("FareBasis")
     @XmlElement(name = "FareBasis")
     private String fareBasis;
@@ -97,7 +97,7 @@ public class FareInfoType  {
     }
 
     /**
-     * Fare\passenger ticket
+     * Fare passenger ticket
      */
     public String getFareBasis() {
         return this.fareBasis;

@@ -18,6 +18,7 @@ import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
+import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
@@ -39,7 +40,7 @@ public class GaCancelFlightOrderV2Response implements HasResponseStatus {
 
     public GaCancelFlightOrderV2Response(
         ResponseStatusType responseStatus, 
-        List<OpenCancelOrderResponseItems> openCancelOrderResponseItems) {
+        List<OpenCancelOrderResponseItem> openCancelOrderResponseItems) {
         this.responseStatus = responseStatus;
         this.openCancelOrderResponseItems = openCancelOrderResponseItems;
     }
@@ -54,8 +55,9 @@ public class GaCancelFlightOrderV2Response implements HasResponseStatus {
 
     @FieldDoc("订单取消返回结果")
     @JsonProperty("OpenCancelOrderResponseItems")
-    @XmlElement(name = "OpenCancelOrderResponseItems")
-    private List<OpenCancelOrderResponseItems> openCancelOrderResponseItems;
+    @XmlElement(name = "OpenCancelOrderResponseItem")
+    @XmlElementWrapper(name = "OpenCancelOrderResponseItems")
+    private List<OpenCancelOrderResponseItem> openCancelOrderResponseItems;
 
     /**
      * SOA2.0返回头部信息
@@ -71,11 +73,11 @@ public class GaCancelFlightOrderV2Response implements HasResponseStatus {
     /**
      * 订单取消返回结果
      */
-    public List<OpenCancelOrderResponseItems> getOpenCancelOrderResponseItems() {
+    public List<OpenCancelOrderResponseItem> getOpenCancelOrderResponseItems() {
         return this.openCancelOrderResponseItems;
     }
 
-    public void setOpenCancelOrderResponseItems(List<OpenCancelOrderResponseItems> openCancelOrderResponseItems) {
+    public void setOpenCancelOrderResponseItems(List<OpenCancelOrderResponseItem> openCancelOrderResponseItems) {
         this.openCancelOrderResponseItems = openCancelOrderResponseItems;
     }
 

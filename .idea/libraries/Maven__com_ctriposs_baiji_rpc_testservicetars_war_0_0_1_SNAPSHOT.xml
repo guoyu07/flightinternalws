@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.ctriposs.baiji.rpc:testservicetars:war:0.0.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctriposs/baiji/rpc/testservicetars/0.0.1-SNAPSHOT/testservicetars-0.0.1-20160411.101710-1.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctriposs/baiji/rpc/testservicetars/0.0.1-SNAPSHOT/testservicetars-0.0.1-20160411.101710-1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/ctriposs/baiji/rpc/testservicetars/0.0.1-SNAPSHOT/testservicetars-0.0.1-20160411.101710-1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -229,7 +229,7 @@ public class IBUFlightAPIClient extends ServiceClientBase<IBUFlightAPIClient> {
 
     public static final String ORIGINAL_SERVICE_NAMESPACE = "http://soa.ctrip.com/international/ibuflightapi/service/v1";
 
-    public static final String CODE_GENERATOR_VERSION = "WSDL-2.5.8";
+    public static final String CODE_GENERATOR_VERSION = "WSDL-2.5.9";
 
     public static final String ORIGINAL_SERVICE_TYPE = "NonSLB";
 

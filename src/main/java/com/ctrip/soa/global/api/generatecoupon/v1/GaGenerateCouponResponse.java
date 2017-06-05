@@ -78,14 +78,12 @@ public class GaGenerateCouponResponse implements HasResponseStatus {
     private String resultCode;
 
     @FieldDoc("返回代码" +
-" +
 "int--适用于SOA1.0" +
 "返回代码可能的值如下：" +
 "1001-优惠策略ID[PromotionID]不能为空！" +
 "1002-产品线ID[ProductLineID]不能为空！" +
 "1003-生成数量[Count]不能超过20个！" +
 "1004-生成数量[Count]不能小于等于0！" +
-" +
 "byte--适用于SOA2.0" +
 "返回代码可能的值如下：" +
 "101-优惠策略ID[PromotionID]不能为空！" +
@@ -93,7 +91,6 @@ public class GaGenerateCouponResponse implements HasResponseStatus {
 "103-生成数量[Count]不能超过20个！" +
 "104-生成数量[Count]不能小于等于0！" +
 "【以上为两种不同方式调用返回结果不同。】" +
-" +
 "255-未知错误" +
 "0-成功" +
 "1-产品线不存在" +
@@ -152,14 +149,12 @@ public class GaGenerateCouponResponse implements HasResponseStatus {
 
     /**
      * 返回代码
-     * 
      * int--适用于SOA1.0
      * 返回代码可能的值如下：
      * 1001-优惠策略ID[PromotionID]不能为空！
      * 1002-产品线ID[ProductLineID]不能为空！
      * 1003-生成数量[Count]不能超过20个！
      * 1004-生成数量[Count]不能小于等于0！
-     * 
      * byte--适用于SOA2.0
      * 返回代码可能的值如下：
      * 101-优惠策略ID[PromotionID]不能为空！
@@ -167,7 +162,6 @@ public class GaGenerateCouponResponse implements HasResponseStatus {
      * 103-生成数量[Count]不能超过20个！
      * 104-生成数量[Count]不能小于等于0！
      * 【以上为两种不同方式调用返回结果不同。】
-     * 
      * 255-未知错误
      * 0-成功
      * 1-产品线不存在

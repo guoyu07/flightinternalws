@@ -16,7 +16,6 @@
           <element id="library" level="project" name="Maven: org.apache.xbean:xbean-reflect:4.5" />
           <element id="library" level="project" name="Maven: io.netty:netty-all:4.0.36.Final" />
           <element id="library" level="project" name="Maven: org.slf4j:jcl-over-slf4j:1.7.21" />
-          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.0" />
           <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.8.8" />
           <element id="library" level="project" name="Maven: com.ctriposs:etcd4j:1.0.3" />
@@ -59,6 +58,7 @@
           <element id="library" level="project" name="Maven: com.ctrip.soa.artemis:artemis-common:1.5.2" />
           <element id="library" level="project" name="Maven: com.ctrip.framework:vi:0.9.4" />
           <element id="library" level="project" name="Maven: com.ctrip.framework:vi-core:0.9.4" />
+          <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">

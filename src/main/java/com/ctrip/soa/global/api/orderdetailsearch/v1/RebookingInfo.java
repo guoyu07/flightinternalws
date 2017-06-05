@@ -144,7 +144,7 @@ public class RebookingInfo  {
     @XmlElement(name = "Airline")
     private String airline;
 
-    @FieldDoc("订位类型（GDS-WS\ 1A-WS\ TS-WS\ 1B-WS\ ZY-WS\ TF-WS\HX-WS）")
+    @FieldDoc("订位类型（GDS-WS 1A-WS TS-WS 1B-WS ZY-WS TF-WS HX-WS）")
     @JsonProperty("BookSeatType")
     @XmlElement(name = "BookSeatType")
     private String bookSeatType;
@@ -295,7 +295,7 @@ public class RebookingInfo  {
     }
 
     /**
-     * 订位类型（GDS-WS\ 1A-WS\ TS-WS\ 1B-WS\ ZY-WS\ TF-WS\HX-WS）
+     * 订位类型（GDS-WS 1A-WS TS-WS 1B-WS ZY-WS TF-WS HX-WS）
      */
     public String getBookSeatType() {
         return this.bookSeatType;

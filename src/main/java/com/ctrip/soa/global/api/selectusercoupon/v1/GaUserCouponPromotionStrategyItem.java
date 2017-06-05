@@ -129,7 +129,6 @@ public class GaUserCouponPromotionStrategyItem  {
     private Integer promotionID;
 
     @FieldDoc("可使用优惠券部门" +
-" +
 "机票	1" +
 "酒店	2" +
 "旅游	3" +
@@ -154,7 +153,6 @@ public class GaUserCouponPromotionStrategyItem  {
 "当地玩乐	22" +
 "高端美食	23" +
 "汽车票	24" +
-" +
 "这是一个string 类型的 返回的结果可能是”1,2,3”" +
 "这个和vsjl 进行了 确认暂时我们这里配的券 只有一种对应的产线")
     @JsonProperty("UserProductLineIDs")
@@ -284,7 +282,6 @@ public class GaUserCouponPromotionStrategyItem  {
 
     /**
      * 可使用优惠券部门
-     * 
      * 机票1
      * 酒店2
      * 旅游3
@@ -309,7 +306,6 @@ public class GaUserCouponPromotionStrategyItem  {
      * 当地玩乐22
      * 高端美食23
      * 汽车票24
-     * 
      * 这是一个string 类型的 返回的结果可能是”1,2,3”
      * 这个和vsjl 进行了 确认暂时我们这里配的券 只有一种对应的产线
      */
