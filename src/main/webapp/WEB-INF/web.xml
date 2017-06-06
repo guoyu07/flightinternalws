@@ -5,4 +5,12 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
+  <servlet>
+    <servlet-name>BaijiServlet</servlet-name>
+    <servlet-class>com.ctriposs.baiji.rpc.server.BaijiServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BaijiServlet</servlet-name>
+    <url-pattern>/api/*</url-pattern>
+  </servlet-mapping>
 </web-app>
