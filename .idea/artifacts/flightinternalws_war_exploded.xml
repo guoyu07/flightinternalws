@@ -33,14 +33,22 @@
           <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-common:1.11.2" />
           <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-util:1.11.2" />
           <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-configuration:1.11.2" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5" />
           <element id="library" level="project" name="Maven: com.ctriposs.baiji:registry-client:1.6.10" />
           <element id="library" level="project" name="Maven: com.ctriposs.baiji:baiji-rpc-client:2.5.1" />
           <element id="library" level="project" name="Maven: com.ctriposs.baiji:baiji-rpc-common:2.5.1" />
           <element id="library" level="project" name="Maven: com.ctrip.framework.clogging:clogging-agent:4.1.7" />
           <element id="library" level="project" name="Maven: org.apache.thrift:libthrift:0.9.3" />
-          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-ribbon:1.11.2" />
+          <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-ctrip:1.11.2" />
+          <element id="library" level="project" name="Maven: com.ctrip.framework.apollo:apollo-client:0.6.1" />
+          <element id="library" level="project" name="Maven: com.ctrip.framework.apollo:apollo-core:0.6.1" />
+          <element id="library" level="project" name="Maven: com.ctrip.soa.artemis:artemis-client:1.5.2" />
+          <element id="library" level="project" name="Maven: com.ctrip.soa.artemis:artemis-common:1.5.2" />
+          <element id="library" level="project" name="Maven: com.ctriposs.baiji:baiji-rpc-server:2.5.3" />
+          <element id="library" level="project" name="Maven: commons-beanutils:commons-beanutils:1.9.3" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:4.3.4.RELEASE" />
@@ -49,15 +57,15 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-websocket:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-messaging:4.3.4.RELEASE" />
-          <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-ribbon:1.11.2" />
-          <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-ctrip:1.11.2" />
           <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-hystrix:1.11.2" />
-          <element id="library" level="project" name="Maven: com.ctrip.framework.apollo:apollo-client:0.6.1" />
-          <element id="library" level="project" name="Maven: com.ctrip.framework.apollo:apollo-core:0.6.1" />
-          <element id="library" level="project" name="Maven: com.ctrip.soa.artemis:artemis-client:1.5.2" />
-          <element id="library" level="project" name="Maven: com.ctrip.soa.artemis:artemis-common:1.5.2" />
+          <element id="library" level="project" name="Maven: com.ctrip.soa.caravan:caravan-web:1.11.2" />
+          <element id="library" level="project" name="Maven: com.github.ziplet:ziplet:2.1.2" />
           <element id="library" level="project" name="Maven: com.ctrip.framework:vi:0.9.4" />
           <element id="library" level="project" name="Maven: com.ctrip.framework:vi-core:0.9.4" />
+          <element id="library" level="project" name="Maven: org.apache.velocity:velocity:1.7" />
+          <element id="library" level="project" name="Maven: commons-lang:commons-lang:2.6" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.5" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
           <element id="library" level="project" name="Maven: com.google.code.gson:gson:2.8.1" />
         </element>
       </element>

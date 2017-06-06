@@ -1,0 +1,52 @@
+include 'BaijiCommonTypes.bjsc'
+include 'InternalWSCommon.bjsc'
+
+namespace java 'com.ctrip.ibu.flight.internalws'
+
+enum LanguageType{
+    CN;
+    JA;
+    KO;
+    FR;
+    DE;
+    RU;
+    ES;
+    EN;
+    VI;
+    ZH_HK;
+    MY;
+    TH;
+    ID;
+    NULL
+    
+}
+enum MessageType{
+    Email_ReservationConfirmation,
+    Email_PaymentSuccess
+}
+class SendMessageRequestType{
+    long orderID;
+    string uid;
+    MessageType messageType;
+    LanguageType languageType;
+    string recipient;
+    string subject;
+    string messageContent;
+    string cc;
+    string bcc;
+    string eid;
+    string importance;
+    string uniqueID;
+    string remark;
+}
+class SendMessageResponseType{
+    BaijiCommonTypes.ResponseStatusType responseStatus;
+    InternalWSCommon.ResultCode resultCode;
+    string message;
+}/* 国际网站机票产线公共服务 */
+@serviceName='InternalWSService'
+@serviceNamespace='http://soa.ctrip.com/international/ibuflightcommonapi/v1'
+service InternalWSService {
+    SendMessageResponseType sendMessage(SendMessageRequestType request);
+    BaijiCommonTypes.CheckHealthResponseType checkHealth(BaijiCommonTypes.CheckHealthRequestType request);
+}

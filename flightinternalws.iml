@@ -59,14 +59,22 @@
     <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-common:1.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-util:1.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-configuration:1.11.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: com.ctriposs.baiji:registry-client:1.6.10" level="project" />
     <orderEntry type="library" name="Maven: com.ctriposs.baiji:baiji-rpc-client:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: com.ctriposs.baiji:baiji-rpc-common:2.5.1" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.framework.clogging:clogging-agent:4.1.7" level="project" />
     <orderEntry type="library" name="Maven: org.apache.thrift:libthrift:0.9.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-ribbon:1.11.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-ctrip:1.11.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-client:0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-core:0.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.soa.artemis:artemis-client:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.soa.artemis:artemis-common:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ctriposs.baiji:baiji-rpc-server:2.5.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
+    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.8.5" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.8.5" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:4.3.4.RELEASE" level="project" />
@@ -75,16 +83,16 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-websocket:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-messaging:4.3.4.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-ribbon:1.11.2" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-ctrip:1.11.2" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-hystrix:1.11.2" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-client:0.6.1" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.framework.apollo:apollo-core:0.6.1" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.soa.artemis:artemis-client:1.5.2" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.soa.artemis:artemis-common:1.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.ctrip.soa.caravan:caravan-web:1.11.2" level="project" />
+    <orderEntry type="library" name="Maven: com.github.ziplet:ziplet:2.1.2" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.framework:vi:0.9.4" level="project" />
     <orderEntry type="library" name="Maven: com.ctrip.framework:vi-core:0.9.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.velocity:velocity:1.7" level="project" />
+    <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:2.5" level="project" />
     <orderEntry type="library" name="Maven: com.ctriposs.baiji.rpc:testservicetars:war:0.0.1-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: javax.servlet:javax.servlet-api:3.1.0" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.1" level="project" />
   </component>
 </module>
